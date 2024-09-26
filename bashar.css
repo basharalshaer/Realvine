@@ -29,11 +29,27 @@ img{
     border-radius: 16px;
     cursor: pointer;
     overflow: hidden;
+    position: relative;
 }
 .container card h3{
     margin: 3% 5%;
     font-size: 20px;
     text-align: left;
+    font-weight: 500;
+}
+.heart-icon{
+    position: absolute;
+    top:3%;
+    left: 84%;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+.heart-icon i{
+    font-size: 20px;
+    padding: 5px;
+    color:red;
     font-weight: 500;
 }
 .empty-line{
